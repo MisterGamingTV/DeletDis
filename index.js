@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 client.on('messageReactionAdd', (reaction, user) => {
     if(user.bot) return;
-    if(reaction.emoji.name == "⛔"  && reaction.count == 2){
+    if(reaction.emoji.name == "⛔"  && reaction.count == 5){
         console.log(`Reaction!`);
        reaction.message.delete()
        reaction.message.channel.send(`${reaction.message.author}'s message has been deleted lol`)

@@ -1,0 +1,14 @@
+{
+  "name": "deletdis",
+  "version": "1.0.0",
+  "description": "Delete any message by reacting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MisterGamingTV",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
